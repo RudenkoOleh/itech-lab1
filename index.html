@@ -219,9 +219,9 @@
                 </table>
             </section>
             <section>
-                <h2 style="text-align: center">Форма з керуючими елементами</h2>
-                <p style="text-align: center">Введіть комплектуючі вашого ПК:</p>
-                <form style="text-align: center">
+                <h2>Форма з керуючими елементами</h2>
+                <p>Введіть комплектуючі вашого ПК:</p>
+                <form>
                     <label for="processor">Процесор:</label>
                     <input
                         type="text"
@@ -276,6 +276,29 @@
                     <input type="submit" value="Зберегти інформацію" />
                     <input type="reset" value="Reset" />
                 </form>
+            </section>
+            <section>
+                <h2>Посилання та зображення</h2>
+                <p>
+                    Клацайте на різні частини картинки, щоб перейти на сайт кафедри ЕОМ, сайт університету та сайт
+                    розкладу занять
+                </p>
+                <img
+                    src="khnure.jpg"
+                    alt="Зображення університету"
+                    usemap="#universitymap"
+                    style="width: 600px; height: 400px"
+                />
+                <map name="universitymap">
+                    <area shape="rect" coords="0,0,300,200" href="https://nure.ua/" alt="Сайт університету" />
+                    <area shape="rect" coords="300,0,600,200" href="https://dec.nure.ua/" alt="Сайт кафедри ЕОМ" />
+                    <area
+                        shape="rect"
+                        coords="0,200,600,400"
+                        href="https://cist.nure.ua/ias/app/tt/f?p=778:2:3742999021755855::NO#"
+                        alt="Розклад занять"
+                    />
+                </map>
             </section>
         </main>
     </body>
