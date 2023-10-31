@@ -81,7 +81,7 @@
                 </dl>
             </section>
             <section>
-                <h2>Фрагмент таблиці періодичної системи хімічних елементів</h2>
+                <h2 style="text-align: center">Фрагмент таблиці періодичної системи хімічних елементів</h2>
                 <table style="margin-left: auto; margin-right: auto; width: 60%" border="1px">
                     <tr>
                         <th style="width: 5%" rowspan="2">Періоди</th>
@@ -217,6 +217,65 @@
                         </td>
                     </tr>
                 </table>
+            </section>
+            <section>
+                <h2 style="text-align: center">Форма з керуючими елементами</h2>
+                <p style="text-align: center">Введіть комплектуючі вашого ПК:</p>
+                <form style="text-align: center">
+                    <label for="processor">Процесор:</label>
+                    <input
+                        type="text"
+                        id="processor"
+                        name="processor"
+                        placeholder="Наприклад, Intel Core i7"
+                        required
+                    /><br /><br />
+
+                    <label for="ram">Оперативна пам'ять (RAM):</label>
+                    <input type="text" id="ram" name="ram" placeholder="Наприклад, 16 ГБ DDR4" required /><br /><br />
+
+                    <label for="storage">Накопичувач (HDD/SSD):</label>
+                    <input
+                        type="text"
+                        id="storage"
+                        name="storage"
+                        placeholder="Наприклад, 1 ТБ HDD"
+                        required
+                    /><br /><br />
+
+                    <label for="graphics">Графічний адаптер:</label>
+                    <input
+                        type="text"
+                        id="graphics"
+                        name="graphics"
+                        placeholder="Наприклад, NVIDIA GeForce RTX 3080"
+                        required
+                    /><br /><br />
+
+                    <label for="monitor">Монітор:</label>
+                    <input
+                        type="text"
+                        id="monitor"
+                        name="monitor"
+                        placeholder="Наприклад, 27-дюймовий IPS"
+                        required
+                    /><br /><br />
+
+                    <label for="keyboard">Клавіатура:</label>
+                    <input
+                        type="text"
+                        id="keyboard"
+                        name="keyboard"
+                        placeholder="Наприклад, бездротова"
+                        required
+                    /><br /><br />
+
+                    <label for="mouse">Миша:</label>
+                    <input type="text" id="mouse" name="mouse" placeholder="Наприклад, геймерська" required /><br /><br />
+
+                    <input type="submit" value="Зберегти інформацію" />
+                    <input type="reset" value="Reset" />
+                </form>
             </section>
         </main>
     </body>
